@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-repo/expo-lib": ["packages/expo-lib/src/index.ts"],
+      "@nx-repo/mobile-app-lib": ["packages/mobile-app-lib/src/index.ts"],
+      "@nx-repo/next-lib": ["packages/next-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
